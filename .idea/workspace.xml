@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b096481c-1f5d-445b-a16a-35e46d0ee8dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/application/extra/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/extra/site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin_zhengyuanhong.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201907/07.log" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/log/201907/07.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/topthink/think-captcha/" />
@@ -39,7 +42,7 @@
         <counts>
           <entry key="env" value="1" />
           <entry key="html" value="4" />
-          <entry key="php" value="56" />
+          <entry key="php" value="57" />
           <entry key="sample" value="1" />
           <entry key="tpl" value="2" />
         </counts>
@@ -47,7 +50,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="4" />
-          <entry key="PHP" value="56" />
+          <entry key="PHP" value="57" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Smarty" value="2" />
         </counts>
@@ -56,13 +59,13 @@
         <counts>
           <entry key="env" value="1" />
           <entry key="html" value="255" />
-          <entry key="php" value="1347" />
+          <entry key="php" value="1367" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="255" />
-          <entry key="PHP" value="1347" />
+          <entry key="PHP" value="1367" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -70,11 +73,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/extra/site.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="342">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -93,11 +105,11 @@
         <option value="$PROJECT_DIR$/application/route.php" />
         <option value="$PROJECT_DIR$/application/common/controller/Backend.php" />
         <option value="$PROJECT_DIR$/application/index/view/index/index.html" />
-        <option value="$PROJECT_DIR$/application/config.php" />
         <option value="$PROJECT_DIR$/application/admin/lang/zh-cn/post.php" />
         <option value="$PROJECT_DIR$/application/admin/controller/Dashboard.php" />
         <option value="$PROJECT_DIR$/application/admin/view/index/index.html" />
         <option value="$PROJECT_DIR$/application/extra/site.php" />
+        <option value="$PROJECT_DIR$/application/config.php" />
       </list>
     </option>
   </component>
@@ -190,6 +202,11 @@
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="extra" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ownObj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ownObj" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -233,16 +250,15 @@
       <workItem from="1562316102916" duration="4959000" />
       <workItem from="1562324518377" duration="665000" />
       <workItem from="1562395873112" duration="2343000" />
-      <workItem from="1562424878937" duration="1375000" />
+      <workItem from="1562424878937" duration="1703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9342000" />
+    <option name="totallyTimeSpent" value="9670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23686337" />
@@ -447,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3876">
-          <caret line="212" column="8" selection-start-line="212" selection-start-column="8" selection-end-line="212" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/controller/general/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1824" />
@@ -497,8 +506,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/extra/site.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="342">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
         </state>
       </provider>
     </entry>
