@@ -1,11 +1,10 @@
 <?php
 
 $finder = PhpCsFixer\Finder::create()
-    ->exclude(['vendor', 'tests/data/Calculation'])
+    ->exclude('vendor')
     ->in('samples')
     ->in('src')
-    ->in('tests/PhpSpreadsheetTests')
-    ;
+    ->in('tests');
 
 return PhpCsFixer\Config::create()
     ->setRiskyAllowed(true)
