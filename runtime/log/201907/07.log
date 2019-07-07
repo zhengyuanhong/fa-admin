@@ -1814,3 +1814,1423 @@
 [ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002066s ]
 [ info ] [ RUN ] app\api\controller\Demo->test[ D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Demo.php ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T14:14:32+08:00 ] 127.0.0.1 GET localhost/
+[运行时间：0.147554s] [吞吐率：6.78req/s] [内存消耗：2,445.02kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004054s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6098415616; _ga=GA1.1.1216734665.1554999946; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1562428957,1562461153,1562470156,1562474619; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1562474619; PHPSESSID=70p60bkhetk4shtdao5lissu7o; keeplogin=1%7C86400%7C1562561214%7C02b7fd85e017234ad475002d49b1cf69',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003282s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstart\PHPTutorial\WWW\ownObj\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T14:14:36+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.085748s] [吞吐率：11.66req/s] [内存消耗：2,153.96kb] [文件加载：105]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003144s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6098415616; _ga=GA1.1.1216734665.1554999946; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1562428957,1562461153,1562470156,1562474619; PHPSESSID=70p60bkhetk4shtdao5lissu7o; keeplogin=1%7C86400%7C1562561214%7C02b7fd85e017234ad475002d49b1cf69; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1562480074',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002196s ]
+[ info ] [ RUN ] app\api\controller\Demo->test[ D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Demo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Cannot handle token prior to 2019-07-07T14:14:46+0800[D:\phpstart\PHPTutorial\WWW\ownObj\vendor\firebase\php-jwt\src\JWT.php:118]
+---------------------------------------------------------------
+[ 2019-07-07T14:15:46+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：11.074326s] [吞吐率：0.09req/s] [内存消耗：2,123.63kb] [文件加载：103]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003289s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6098415616; _ga=GA1.1.1216734665.1554999946; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1562428957,1562461153,1562470156,1562474619; PHPSESSID=70p60bkhetk4shtdao5lissu7o; keeplogin=1%7C86400%7C1562561214%7C02b7fd85e017234ad475002d49b1cf69; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1562480074',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002221s ]
+[ info ] [ RUN ] app\api\controller\Demo->test[ D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Demo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T14:16:21+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：11.124504s] [吞吐率：0.09req/s] [内存消耗：2,123.63kb] [文件加载：103]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003816s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6098415616; _ga=GA1.1.1216734665.1554999946; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1562428957,1562461153,1562470156,1562474619; PHPSESSID=70p60bkhetk4shtdao5lissu7o; keeplogin=1%7C86400%7C1562561214%7C02b7fd85e017234ad475002d49b1cf69; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1562480074',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002272s ]
+[ info ] [ RUN ] app\api\controller\Demo->test[ D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Demo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T14:23:54+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：11.173108s] [吞吐率：0.09req/s] [内存消耗：2,123.74kb] [文件加载：103]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003918s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6098415616; _ga=GA1.1.1216734665.1554999946; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1562428957,1562461153,1562470156,1562474619; PHPSESSID=70p60bkhetk4shtdao5lissu7o; keeplogin=1%7C86400%7C1562561214%7C02b7fd85e017234ad475002d49b1cf69; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1562480074',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003335s ]
+[ info ] [ RUN ] app\api\controller\Demo->test[ D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Demo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T14:25:01+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：11.162142s] [吞吐率：0.09req/s] [内存消耗：2,159.70kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003104s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6098415616; _ga=GA1.1.1216734665.1554999946; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1562428957,1562461153,1562470156,1562474619; PHPSESSID=70p60bkhetk4shtdao5lissu7o; keeplogin=1%7C86400%7C1562561214%7C02b7fd85e017234ad475002d49b1cf69; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1562480074',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003149s ]
+[ info ] [ RUN ] app\api\controller\Demo->test[ D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Demo.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Demo.php:48]
+---------------------------------------------------------------
+[ 2019-07-07T14:25:30+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：11.177856s] [吞吐率：0.09req/s] [内存消耗：2,123.88kb] [文件加载：103]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005347s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6098415616; _ga=GA1.1.1216734665.1554999946; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1562428957,1562461153,1562470156,1562474619; PHPSESSID=70p60bkhetk4shtdao5lissu7o; keeplogin=1%7C86400%7C1562561214%7C02b7fd85e017234ad475002d49b1cf69; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1562480074',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003140s ]
+[ info ] [ RUN ] app\api\controller\Demo->test[ D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Demo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T14:32:40+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：11.152747s] [吞吐率：0.09req/s] [内存消耗：2,124.48kb] [文件加载：103]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005160s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6098415616; _ga=GA1.1.1216734665.1554999946; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1562428957,1562461153,1562470156,1562474619; PHPSESSID=70p60bkhetk4shtdao5lissu7o; keeplogin=1%7C86400%7C1562561214%7C02b7fd85e017234ad475002d49b1cf69; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1562480074',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003843s ]
+[ info ] [ RUN ] app\api\controller\Demo->test[ D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Demo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T15:39:26+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.213093s] [吞吐率：4.69req/s] [内存消耗：2,154.72kb] [文件加载：104]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000101s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010229s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6098415616; _ga=GA1.1.1216734665.1554999946; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1562428957,1562461153,1562470156,1562474619; PHPSESSID=70p60bkhetk4shtdao5lissu7o; keeplogin=1%7C86400%7C1562561214%7C02b7fd85e017234ad475002d49b1cf69; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1562480074',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003335s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Wrong number of segments[D:\phpstart\PHPTutorial\WWW\ownObj\vendor\firebase\php-jwt\src\JWT.php:78]
+---------------------------------------------------------------
+[ 2019-07-07T15:40:17+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.265927s] [吞吐率：3.76req/s] [内存消耗：2,771.60kb] [文件加载：113]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000054s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007020s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '52cdf1c4-51c1-4bc4-a798-767e4570650b',
+  'cache-control' => 'no-cache',
+  'token' => '123',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005594s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005237s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.040100s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'ae9173b5f8b672bfff950a1742941e8993c860c7' LIMIT 1 [ RunTime:0.001090s ]
+[ error ] [0]Wrong number of segments[D:\phpstart\PHPTutorial\WWW\ownObj\vendor\firebase\php-jwt\src\JWT.php:78]
+---------------------------------------------------------------
+[ 2019-07-07T15:40:56+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.110266s] [吞吐率：9.07req/s] [内存消耗：2,643.47kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003284s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'cd6fba0b-0db2-44bb-b1d9-cf5453ed9ab1',
+  'cache-control' => 'no-cache',
+  'token' => '123',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002094s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000822s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.024836s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'ae9173b5f8b672bfff950a1742941e8993c860c7' LIMIT 1 [ RunTime:0.000575s ]
+---------------------------------------------------------------
+[ 2019-07-07T15:42:03+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.196525s] [吞吐率：5.09req/s] [内存消耗：2,154.72kb] [文件加载：104]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004370s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6098415616; _ga=GA1.1.1216734665.1554999946; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1562428957,1562461153,1562470156,1562474619; PHPSESSID=70p60bkhetk4shtdao5lissu7o; keeplogin=1%7C86400%7C1562561214%7C02b7fd85e017234ad475002d49b1cf69; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1562480074',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003303s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Wrong number of segments[D:\phpstart\PHPTutorial\WWW\ownObj\vendor\firebase\php-jwt\src\JWT.php:78]
+---------------------------------------------------------------
+[ 2019-07-07T15:42:44+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.190088s] [吞吐率：5.26req/s] [内存消耗：2,771.65kb] [文件加载：113]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003672s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'a1dcc96e-8b40-4245-ab1c-4bcc55c3f208',
+  'cache-control' => 'no-cache',
+  'token' => 'asdfasdfasdfasdf',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002438s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010786s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.023938s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '038a752ddf8e314d55b259ee976a8edd5042329c' LIMIT 1 [ RunTime:0.000647s ]
+[ error ] [0]Wrong number of segments[D:\phpstart\PHPTutorial\WWW\ownObj\vendor\firebase\php-jwt\src\JWT.php:78]
+---------------------------------------------------------------
+[ 2019-07-07T15:46:12+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.195597s] [吞吐率：5.11req/s] [内存消耗：2,771.98kb] [文件加载：113]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004140s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '68bb610a-3045-4b05-bdea-44a241bb116c',
+  'cache-control' => 'no-cache',
+  'token' => 'asdfasdfasdfasdf',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004397s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000895s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.028152s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '038a752ddf8e314d55b259ee976a8edd5042329c' LIMIT 1 [ RunTime:0.000891s ]
+[ error ] [0]Wrong number of segments[D:\phpstart\PHPTutorial\WWW\ownObj\vendor\firebase\php-jwt\src\JWT.php:78]
+---------------------------------------------------------------
+[ 2019-07-07T15:48:06+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.151783s] [吞吐率：6.59req/s] [内存消耗：2,771.71kb] [文件加载：113]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003757s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '34d37474-f616-4648-93b7-255737e1fea4',
+  'cache-control' => 'no-cache',
+  'token' => 'asdfasdfasdfasdf.rrrrr',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004286s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010811s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.021407s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'effd0eb0b1c71a669e9c475bede718588726a1ea' LIMIT 1 [ RunTime:0.000570s ]
+[ error ] [0]Wrong number of segments[D:\phpstart\PHPTutorial\WWW\ownObj\vendor\firebase\php-jwt\src\JWT.php:78]
+---------------------------------------------------------------
+[ 2019-07-07T15:50:17+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：11.300525s] [吞吐率：0.09req/s] [内存消耗：2,124.80kb] [文件加载：103]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.017810s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6098415616; _ga=GA1.1.1216734665.1554999946; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1562428957,1562461153,1562470156,1562474619; PHPSESSID=70p60bkhetk4shtdao5lissu7o; keeplogin=1%7C86400%7C1562561214%7C02b7fd85e017234ad475002d49b1cf69; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1562480074',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009314s ]
+[ info ] [ RUN ] app\api\controller\Demo->test[ D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Demo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T15:52:09+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.299806s] [吞吐率：3.34req/s] [内存消耗：2,691.16kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007547s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '06c16909-8d8c-4157-bd25-d86ee19cfa20',
+  'cache-control' => 'no-cache',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODU4MDYsIm5iZiI6MTU2MjQ4NTgxNiwiZXhwIjoxNTYyNDg4ODA2LCJhdXRoIjoxfQ.hRgH20jHg6uo-AV1_vFqi_ojsFG8UGhmYcjn8CcV8V8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005523s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002351s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.045858s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7a19fb9e8d15fdf87a6dba7ae5b9c2b463241c5e' LIMIT 1 [ RunTime:0.001228s ]
+---------------------------------------------------------------
+[ 2019-07-07T15:52:45+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.191138s] [吞吐率：5.23req/s] [内存消耗：2,154.98kb] [文件加载：104]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000060s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008995s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6098415616; _ga=GA1.1.1216734665.1554999946; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1562428957,1562461153,1562470156,1562474619; PHPSESSID=70p60bkhetk4shtdao5lissu7o; keeplogin=1%7C86400%7C1562561214%7C02b7fd85e017234ad475002d49b1cf69; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1562480074',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006200s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Wrong number of segments[D:\phpstart\PHPTutorial\WWW\ownObj\vendor\firebase\php-jwt\src\JWT.php:78]
+---------------------------------------------------------------
+[ 2019-07-07T15:52:51+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.120560s] [吞吐率：8.29req/s] [内存消耗：2,691.38kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002491s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '7b808716-341d-4bf1-9f87-a4c97a1f500b',
+  'cache-control' => 'no-cache',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODU4MDYsIm5iZiI6MTU2MjQ4NTgxNiwiZXhwIjoxNTYyNDg4ODA2LCJhdXRoIjoxfQ.hRgH20jHg6uo-AV1_vFqi_ojsFG8UGhmYcjn8CcV8V8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002014s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011545s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.032302s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7a19fb9e8d15fdf87a6dba7ae5b9c2b463241c5e' LIMIT 1 [ RunTime:0.000919s ]
+---------------------------------------------------------------
+[ 2019-07-07T15:52:56+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.108214s] [吞吐率：9.24req/s] [内存消耗：2,691.38kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003004s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'da716044-1cb0-426c-9304-6f41663d5280',
+  'cache-control' => 'no-cache',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODU4MDYsIm5iZiI6MTU2MjQ4NTgxNiwiZXhwIjoxNTYyNDg4ODA2LCJhdXRoIjoxfQ.hRgH20jHg6uo-AV1_vFqi_ojsFG8UGhmYcjn8CcV8V8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002133s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001145s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.024484s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7a19fb9e8d15fdf87a6dba7ae5b9c2b463241c5e' LIMIT 1 [ RunTime:0.000685s ]
+---------------------------------------------------------------
+[ 2019-07-07T15:56:42+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.227209s] [吞吐率：4.40req/s] [内存消耗：2,691.38kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003905s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'c12de822-a51e-4441-80d0-b08de938ced2',
+  'cache-control' => 'no-cache',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODU4MDYsIm5iZiI6MTU2MjQ4NTgxNiwiZXhwIjoxNTYyNDg4ODA2LCJhdXRoIjoxfQ.hRgH20jHg6uo-AV1_vFqi_ojsFG8UGhmYcjn8CcV8V8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003182s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010684s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.028579s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7a19fb9e8d15fdf87a6dba7ae5b9c2b463241c5e' LIMIT 1 [ RunTime:0.000663s ]
+---------------------------------------------------------------
+[ 2019-07-07T15:57:30+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.117798s] [吞吐率：8.49req/s] [内存消耗：2,691.38kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003444s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'c05f9378-e09c-45fe-a605-683f44f3ec3f',
+  'cache-control' => 'no-cache',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODU4MDYsIm5iZiI6MTU2MjQ4NTgxNiwiZXhwIjoxNTYyNDg4ODA2LCJhdXRoIjoxfQ.hRgH20jHg6uo-AV1_vFqi_ojsFG8UGhmYcjn8CcV8V8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002312s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001201s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.029942s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7a19fb9e8d15fdf87a6dba7ae5b9c2b463241c5e' LIMIT 1 [ RunTime:0.001391s ]
+---------------------------------------------------------------
+[ 2019-07-07T15:57:54+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.101633s] [吞吐率：9.84req/s] [内存消耗：2,691.40kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002357s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'c1c335fb-e637-49b5-a5b1-4796df4a5db1',
+  'cache-control' => 'no-cache',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODU4MDYsIm5iZiI6MTU2MjQ4NTgxNiwiZXhwIjoxNTYyNDg4ODA2LCJhdXRoIjoxfQ.hRgH20jHg6uo-AV1_vFqi_ojsFG8UGhmYcjn8CcV8V8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002034s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001044s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.024013s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7a19fb9e8d15fdf87a6dba7ae5b9c2b463241c5e' LIMIT 1 [ RunTime:0.000611s ]
+---------------------------------------------------------------
+[ 2019-07-07T15:57:57+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.116463s] [吞吐率：8.59req/s] [内存消耗：2,691.40kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000057s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004777s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '6bb6081c-4a04-4be6-ac8a-5200c54daa97',
+  'cache-control' => 'no-cache',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODU4MDYsIm5iZiI6MTU2MjQ4NTgxNiwiZXhwIjoxNTYyNDg4ODA2LCJhdXRoIjoxfQ.hRgH20jHg6uo-AV1_vFqi_ojsFG8UGhmYcjn8CcV8V8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003631s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000845s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.020743s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7a19fb9e8d15fdf87a6dba7ae5b9c2b463241c5e' LIMIT 1 [ RunTime:0.000446s ]
+---------------------------------------------------------------
+[ 2019-07-07T15:57:58+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.116118s] [吞吐率：8.61req/s] [内存消耗：2,691.40kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002487s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '34d50ca2-1734-412d-8a7a-b51fc8cf31a3',
+  'cache-control' => 'no-cache',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODU4MDYsIm5iZiI6MTU2MjQ4NTgxNiwiZXhwIjoxNTYyNDg4ODA2LCJhdXRoIjoxfQ.hRgH20jHg6uo-AV1_vFqi_ojsFG8UGhmYcjn8CcV8V8',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002569s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011826s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.023460s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '7a19fb9e8d15fdf87a6dba7ae5b9c2b463241c5e' LIMIT 1 [ RunTime:0.000738s ]
+---------------------------------------------------------------
+[ 2019-07-07T15:58:25+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.109005s] [吞吐率：9.17req/s] [内存消耗：2,691.27kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002445s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'c62065b4-786a-443f-b21c-9ee9da14f181',
+  'cache-control' => 'no-cache',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002045s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011289s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.026477s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'cb835b34e19022d864ab141da3e7cd41ace36d5c' LIMIT 1 [ RunTime:0.000638s ]
+---------------------------------------------------------------
+[ 2019-07-07T15:58:29+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.124555s] [吞吐率：8.03req/s] [内存消耗：2,691.27kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003929s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'b80cec66-21f6-41f2-9d6a-82161cf9b98e',
+  'cache-control' => 'no-cache',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002768s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011538s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.025821s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'cb835b34e19022d864ab141da3e7cd41ace36d5c' LIMIT 1 [ RunTime:0.000610s ]
+---------------------------------------------------------------
+[ 2019-07-07T16:04:06+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.188715s] [吞吐率：5.30req/s] [内存消耗：2,691.27kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006898s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '78d53216-51e8-4156-ac1b-7ef9adc494aa',
+  'cache-control' => 'no-cache',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005332s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001827s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.032803s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'cb835b34e19022d864ab141da3e7cd41ace36d5c' LIMIT 1 [ RunTime:0.000793s ]
+---------------------------------------------------------------
+[ 2019-07-07T16:47:59+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.246674s] [吞吐率：4.05req/s] [内存消耗：2,771.88kb] [文件加载：113]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004321s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'f95e3d0f-7924-4198-a7d3-a36909a4b3cf',
+  'cache-control' => 'no-cache',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003362s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001401s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.027412s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'cb835b34e19022d864ab141da3e7cd41ace36d5c' LIMIT 1 [ RunTime:0.000651s ]
+[ error ] [0]Wrong number of segments[D:\phpstart\PHPTutorial\WWW\ownObj\vendor\firebase\php-jwt\src\JWT.php:78]
+---------------------------------------------------------------
+[ 2019-07-07T16:49:26+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.153650s] [吞吐率：6.51req/s] [内存消耗：2,071.57kb] [文件加载：100]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000063s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006240s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'fb5f9ca3-fef2-4c2f-9391-f29f5f4065ef',
+  'cache-control' => 'no-cache',
+  'allow-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005728s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T16:50:44+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.270623s] [吞吐率：3.70req/s] [内存消耗：2,071.69kb] [文件加载：100]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000096s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014338s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '9276ccba-4296-4da7-b989-f9e2a08cbd9d',
+  'cache-control' => 'no-cache',
+  'allow-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009962s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T16:52:10+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.139901s] [吞吐率：7.15req/s] [内存消耗：2,118.62kb] [文件加载：102]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005530s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Demo',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '2c3ff89e-4651-400e-8159-05e562f1ccfa',
+  'cache-control' => 'no-cache',
+  'allow-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004002s ]
+[ info ] [ RUN ] app\api\controller\Demo->test[ D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Demo.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T17:09:30+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.296746s] [吞吐率：3.37req/s] [内存消耗：1,721.61kb] [文件加载：98]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000093s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013454s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wechat',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '6b6f2490-fec5-472f-a38f-abf3f31cdbf0',
+  'cache-control' => 'no-cache',
+  'allow-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009675s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T17:11:01+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.094210s] [吞吐率：10.61req/s] [内存消耗：1,721.61kb] [文件加载：98]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002486s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wechat',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '26f5a052-1b74-4c37-81f7-72a41570588d',
+  'cache-control' => 'no-cache',
+  'allow-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002092s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T17:14:13+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.246557s] [吞吐率：4.06req/s] [内存消耗：2,473.85kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005352s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Wechat',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '1c953e04-738e-41ec-ab2f-1d0f8f2301fa',
+  'cache-control' => 'no-cache',
+  'allow-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004710s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001151s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.029650s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000807s ]
+---------------------------------------------------------------
+[ 2019-07-07T17:16:48+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.233876s] [吞吐率：4.28req/s] [内存消耗：1,852.97kb] [文件加载：101]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010681s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Wechat',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '174f44cc-166e-4775-95f6-ed074e0c968b',
+  'cache-control' => 'no-cache',
+  'allow-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.008321s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Signature verification failed[D:\phpstart\PHPTutorial\WWW\ownObj\vendor\firebase\php-jwt\src\JWT.php:112]
+---------------------------------------------------------------
+[ 2019-07-07T17:18:00+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.204482s] [吞吐率：4.89req/s] [内存消耗：1,852.97kb] [文件加载：101]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000085s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009475s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Wechat',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '1498f8e7-7d77-4647-a8c1-b1c8ac6a2705',
+  'cache-control' => 'no-cache',
+  'allow-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006232s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Signature verification failed[D:\phpstart\PHPTutorial\WWW\ownObj\vendor\firebase\php-jwt\src\JWT.php:112]
+---------------------------------------------------------------
+[ 2019-07-07T17:20:53+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.155911s] [吞吐率：6.41req/s] [内存消耗：1,755.00kb] [文件加载：98]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003983s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Wechat',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '383b457c-10ce-4cf6-b1f3-c550a563b9d8',
+  'cache-control' => 'no-cache',
+  'allow-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003050s ]
+[ info ] [ RUN ] app\api\controller\Wechat->test[ D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
