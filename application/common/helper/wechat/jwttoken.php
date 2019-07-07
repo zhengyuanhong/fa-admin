@@ -5,7 +5,7 @@ use Firebase\JWT\ExpiredException;
 use Firebase\JWT\JWT;
 use Firebase\JWT\SignatureInvalidException;
 
-class jwttoken {
+trait jwttoken {
 
      protected static $key = 'abcdefg';
 

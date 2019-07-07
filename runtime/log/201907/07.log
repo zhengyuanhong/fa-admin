@@ -3234,3 +3234,178 @@
 [ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003050s ]
 [ info ] [ RUN ] app\api\controller\Wechat->test[ D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Wechat.php ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T17:34:03+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.178682s] [吞吐率：5.60req/s] [内存消耗：1,851.00kb] [文件加载：100]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004511s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Wechat',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '327aee7c-ae13-4c05-b441-90fc5c597023',
+  'cache-control' => 'no-cache',
+  'allow-token' => 'asdfasd',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003386s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Wrong number of segments[D:\phpstart\PHPTutorial\WWW\ownObj\vendor\firebase\php-jwt\src\JWT.php:78]
+---------------------------------------------------------------
+[ 2019-07-07T17:40:53+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.126875s] [吞吐率：7.88req/s] [内存消耗：1,850.91kb] [文件加载：100]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003808s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Wechat',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'ef05d26f-cc1a-4ef5-bf7a-2d4b5f9bbc2f',
+  'cache-control' => 'no-cache',
+  'allow-token' => 'asdfasd',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003003s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Wrong number of segments[D:\phpstart\PHPTutorial\WWW\ownObj\vendor\firebase\php-jwt\src\JWT.php:78]
+---------------------------------------------------------------
+[ 2019-07-07T17:41:03+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.074678s] [吞吐率：13.39req/s] [内存消耗：1,754.91kb] [文件加载：98]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002875s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Wechat',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'b194cd66-d928-46d3-8443-21e15d6802d3',
+  'cache-control' => 'no-cache',
+  'allow-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002515s ]
+[ info ] [ RUN ] app\api\controller\Wechat->test[ D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-07T17:45:08+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.128655s] [吞吐率：7.77req/s] [内存消耗：1,851.80kb] [文件加载：100]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004814s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Wechat',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '3f8d5877-f48f-4a68-a701-0d3a35c0c425',
+  'cache-control' => 'no-cache',
+  'allow-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003118s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Wrong number of segments[D:\phpstart\PHPTutorial\WWW\ownObj\vendor\firebase\php-jwt\src\JWT.php:78]
+---------------------------------------------------------------
+[ 2019-07-07T17:46:06+08:00 ] 127.0.0.1 GET localhost/a
+[运行时间：0.055083s] [吞吐率：18.15req/s] [内存消耗：1,755.11kb] [文件加载：98]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002479s ]
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Wechat',
+    2 => 'test',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'c0b36606-557f-4a79-aaad-4a6321acdcde',
+  'cache-control' => 'no-cache',
+  'allow-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXQiOjE1NjI0ODYyNjgsIm5iZiI6MTU2MjQ4NjI3OCwiZXhwIjoxNTYyNDg5MjY4fQ.LlJj1sgd57G6JJx2U2pPFr5s-Z9jFQ-KvwtsW0gVJHM',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstart\PHPTutorial\WWW\ownObj\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002056s ]
+[ info ] [ RUN ] app\api\controller\Wechat->test[ D:\phpstart\PHPTutorial\WWW\ownObj\application\api\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File

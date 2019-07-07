@@ -2,7 +2,6 @@
 
 namespace app\common\controller;
 
-use app\common\helper\wechat\jwttoken;
 use app\common\library\Auth;
 use think\exception\HttpResponseException;
 use think\exception\ValidateException;
@@ -27,6 +26,10 @@ class Api
      */
     protected $token = null;
 
+    /**
+     * @var header
+     */
+    protected $allow_token = null;
     /**
      * @var bool 验证失败是否抛出异常
      */
@@ -94,8 +97,7 @@ class Api
      */
     protected function _initialize()
     {
-        //验证token
-        $this->check();
+        $this->allow_token = $this->request->header('allow-token');
     }
 
     /**
@@ -256,12 +258,6 @@ class Api
 
             return $v->getError();
         }
-
         return true;
-    }
-
-    public function check(){
-        $jwt = $this->request->header('allow-token');
-         $this->token = jwttoken::checkToken($jwt);
     }
 }
