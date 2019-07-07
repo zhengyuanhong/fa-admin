@@ -176,11 +176,6 @@ class Style extends Supervisor
      *                 ]
      *             ]
      *         ],
-     *         'alignment' => [
-     *             'horizontal' => Alignment::HORIZONTAL_CENTER,
-     *             'vertical' => Alignment::VERTICAL_CENTER,
-     *             'wrapText' => true,
-     *         ],
      *         'quotePrefix'    => true
      *     ]
      * );

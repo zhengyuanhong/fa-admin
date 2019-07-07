@@ -543,7 +543,7 @@ class Properties
 
                 break;
             case 'bool':     //    Boolean
-                return $propertyValue == 'true';
+                return ($propertyValue == 'true') ? true : false;
 
                 break;
             case 'cy':       //    Currency

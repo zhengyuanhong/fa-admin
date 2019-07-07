@@ -60,9 +60,9 @@ class DataSeriesValues
     private $dataValues = [];
 
     /**
-     * Fill color (can be array with colors if dataseries have custom colors).
+     * Fill color.
      *
-     * @var string|string[]
+     * @var string
      */
     private $fillColor;
 
@@ -82,7 +82,7 @@ class DataSeriesValues
      * @param int $pointCount
      * @param mixed $dataValues
      * @param null|mixed $marker
-     * @param null|string|string[] $fillColor
+     * @param null|string $fillColor
      */
     public function __construct($dataType = self::DATASERIES_TYPE_NUMBER, $dataSource = null, $formatCode = null, $pointCount = 0, $dataValues = [], $marker = null, $fillColor = null)
     {
@@ -214,7 +214,7 @@ class DataSeriesValues
     /**
      * Get fill color.
      *
-     * @return string|string[] HEX color or array with HEX colors
+     * @return string HEX color
      */
     public function getFillColor()
     {
@@ -224,40 +224,18 @@ class DataSeriesValues
     /**
      * Set fill color for series.
      *
-     * @param string|string[] $color HEX color or array with HEX colors
+     * @param string $color HEX color
      *
      * @return   DataSeriesValues
      */
     public function setFillColor($color)
     {
-        if (is_array($color)) {
-            foreach ($color as $colorValue) {
-                $this->validateColor($colorValue);
-            }
-        } else {
-            $this->validateColor($color);
+        if (!preg_match('/^[a-f0-9]{6}$/i', $color)) {
+            throw new Exception('Invalid hex color for chart series');
         }
         $this->fillColor = $color;
 
         return $this;
-    }
-
-    /**
-     * Method for validating hex color.
-     *
-     * @param string $color value for color
-     *
-     * @throws \Exception thrown if color is invalid
-     *
-     * @return bool true if validation was successful
-     */
-    private function validateColor($color)
-    {
-        if (!preg_match('/^[a-f0-9]{6}$/i', $color)) {
-            throw new Exception(sprintf('Invalid hex color for chart series (color: "%s")', $color));
-        }
-
-        return true;
     }
 
     /**

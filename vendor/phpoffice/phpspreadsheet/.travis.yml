@@ -1,5 +1,6 @@
 language: php
 dist: trusty
+sudo: false
 
 php:
   - 5.6
@@ -56,4 +57,4 @@ jobs:
         github-token: $GITHUB_TOKEN
         on:
           all_branches: true
-          condition: $TRAVIS_BRANCH =~ ^master$
+          condition: $TRAVIS_BRANCH =~ ^master|develop$

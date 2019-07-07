@@ -40,6 +40,7 @@ class Demo extends Api
      */
     public function test()
     {
+        dump('dd');
         $this->success('返回成功', $this->request->param());
     }
 
