@@ -4,6 +4,7 @@ namespace app\api\controller;
 
 use app\common\controller\Api;
 use app\common\helper\wechat\jwttoken;
+use app\helper\wechat\wechatHelper;
 
 class Wechat extends Api{
 
@@ -15,11 +16,14 @@ class Wechat extends Api{
     }
 
     public function getOpenid(){
+        $code = $this->request->param('code');
+        $appid = Config('mini.appid');
+        $secret = Config('mini.secret');
 
-        $data = [
-            'token'=>self::createToken(),
-            'appid'=>Config('mini.appid')
-        ];
+        $data = wechatHelper::grantOpenID($code,$appid,$secret);
+
+        $data['access-token'] = self::createToken();
+
 
         $this->success('success',$data);
     }
