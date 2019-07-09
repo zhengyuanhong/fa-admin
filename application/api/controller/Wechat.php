@@ -21,6 +21,6 @@ class Wechat extends Api{
             'appid'=>Config('mini.appid')
         ];
 
-        $this->success($data);
+        $this->success('success',$data);
     }
 }
