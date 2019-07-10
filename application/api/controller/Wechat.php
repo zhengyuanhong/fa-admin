@@ -27,7 +27,7 @@ class Wechat extends Api{
         $secret = Config('mini.secret');
 
         $data = wechatHelper::grantOpenID($code,$appid,$secret);
-        $data['access-token'] = self::createToken();
+        $data['access_token'] = self::createToken($data['openid']);
 
         $user = WxUser::where('openid',$data['openid'])->find();
         if(empty($user)){

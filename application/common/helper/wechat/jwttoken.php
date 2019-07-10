@@ -13,7 +13,7 @@ trait jwttoken {
          $token = array(
              'lat'=>time(),
              'nbf'=>time()+10,
-             'exp'=>time()+3000,
+             'exp'=>time()+31536000,
              'wx_openid'=>$openid
          );
          $jwt = JWT::encode($token,self::$key);
