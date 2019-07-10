@@ -6,6 +6,7 @@ use app\common\controller\Api;
 use app\common\helper\wechat\jwttoken;
 use app\common\model\WxUser;
 use app\helper\wechat\wechatHelper;
+use think\Log;
 
 class Wechat extends Api{
 
@@ -30,6 +31,7 @@ class Wechat extends Api{
 
         $user = WxUser::where('openid',$data['openid'])->find();
         if(empty($user)){
+            Log::info('新建用户:'.$data['openid']);
             $user = new WxUser;
             $user->openid = $data['openid'];
             $user->save();
