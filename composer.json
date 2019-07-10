@@ -25,7 +25,9 @@
         "karsonzhang/fastadmin-addons": "~1.1.9",
         "overtrue/pinyin": "~3.0",
         "phpoffice/phpspreadsheet": "^1.2",
-        "firebase/php-jwt": "^5.0"
+        "firebase/php-jwt": "^5.0",
+        "ext-curl": "^7.1",
+        "ext-json": "^1.5"
     },
     "config": {
         "preferred-install": "dist"

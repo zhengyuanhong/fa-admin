@@ -1,6 +1,8 @@
 <?php
 namespace app\helper\wechat;
 
+use think\Log;
+
 class wechatHelper {
 
     public static function grantOpenID($code, $appid, $secret)
@@ -27,10 +29,11 @@ class wechatHelper {
         }
 
         $result = json_decode($response, true);
+        Log::info('--------------------');
+        Log::info($result);
         if (empty($result['openid'])) {
             return [];
         }
         return $result;
     }
-
 }

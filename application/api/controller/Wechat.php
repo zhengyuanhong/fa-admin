@@ -16,14 +16,13 @@ class Wechat extends Api{
     }
 
     public function getOpenid(){
-        $code = $this->request->param('code');
+        $code = input('code');
         $appid = Config('mini.appid');
         $secret = Config('mini.secret');
 
         $data = wechatHelper::grantOpenID($code,$appid,$secret);
 
         $data['access-token'] = self::createToken();
-
 
         $this->success('success',$data);
     }
