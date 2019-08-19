@@ -8,6 +8,7 @@ use think\Controller;
 use think\Hook;
 use think\Lang;
 use think\Loader;
+use think\Request;
 
 /**
  * 前台控制器基类
@@ -20,6 +21,8 @@ class Frontend extends Controller
      * @var string
      */
     protected $layout = '';
+
+    protected $request_data = '';
 
     /**
      * 无需登录的方法,同时也就不需要鉴权了
@@ -52,6 +55,8 @@ class Frontend extends Controller
             $this->view->engine->layout('layout/' . $this->layout);
         }
         $this->auth = Auth::instance();
+
+        $this->request_data = Request::instance();
 
         // token
         $token = $this->request->server('HTTP_TOKEN', $this->request->request('token', \think\Cookie::get('token')));
