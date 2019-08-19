@@ -26,7 +26,7 @@ class WxPay{
             'time' => time(),//必须的，当前时间戳，根据此字段判断订单请求是否已超时，防止第三方攻击服务器
             'notify_url' => Env::get('app.url').'/notify.php', //必须的，支付成功异步回调接口
             'return_url' => Env::get('app.url'),//必须的，支付成功后的跳转地址
-            'callback_url' => 'http://www.xx.com/pay/checkout.html',//必须的，支付发起地址（未支付或支付失败，系统会会跳到这个地址让用户修改支付信息）
+            'callback_url' => Env::get('app.url'),//必须的，支付发起地址（未支付或支付失败，系统会会跳到这个地址让用户修改支付信息）
             'modal' => null, //可空，支付模式 ，可选值( full:返回完整的支付网页; qrcode:返回二维码; 空值:返回支付跳转链接)
             'nonce_str' => str_shuffle(time())//必须的，随机字符串，作用：1.避免服务器缓存，2.防止安全密钥被猜测出来
         );
